@@ -1,10 +1,44 @@
-body {
+title {
+    align-items: center;
     background-color: lightblue;
+
+}
+
+
+
+body {
+    background-color: white;
     text-align: center;
 }
 
 h1 {
-    background-color: lightgrey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 200px;
+    color: white;
+    padding: 2%;
+}
+
+.container dt {
+    background-color: rgb(185, 179, 179);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(65, 35, 35);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 50px;
+}
+
+.container dd {
+    background-color: rgb(216, 215, 215);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 50px;
+
 }
 
